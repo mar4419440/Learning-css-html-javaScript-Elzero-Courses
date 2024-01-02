@@ -1,0 +1,5 @@
+div {
+    text-transform: capitalize;
+    font-size: 60px;
+    text-shadow: 3px 3px red, 5px 5px aqua, 7px 7px blue;
+}
