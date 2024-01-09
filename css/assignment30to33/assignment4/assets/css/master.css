@@ -1,0 +1,40 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    width: 700px;
+    height: 600px;
+    border-spacing: 1px;
+    margin: 20px auto;
+}
+
+button {
+    border: none;
+}
+
+.view {
+    background-color: #01a7f3;
+    color: white;
+}
+
+.Delete {
+    background-color: #e81d62;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+th {
+    background-color: #404040;
+    color: white;
+    height: 40px;
+}
+
+td {
+    background-color: #eee;
+}
