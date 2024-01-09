@@ -1,0 +1,23 @@
+div {
+    background-color: #eee;
+    width: 400px;
+    height: 50px;
+    border-left: 5px solid;
+    margin: 50px 0px 50px;
+    align-items: center;
+    outline: 5px solid #eee;
+}
+
+p {
+    padding: 10px;
+    text-align: center left;
+    text-transform: capitalize;
+}
+
+.shape1 {
+    border-color: #e81c62;
+}
+
+.shape2 {
+    border-color: #1f96d2;
+}
