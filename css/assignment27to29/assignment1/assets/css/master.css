@@ -1,0 +1,91 @@
+/* table,
+th,
+td {
+    text-align: center;
+    border-spacing: 15px;
+}
+
+table {
+    width: 800px;
+    height: 50px;
+}
+
+th,
+td {
+    padding: 15px;
+    background-color: #eee;
+}
+
+td.third {
+    width: calc((100% - 60px) / 3);
+}
+
+td.half {
+    width: calc((100% - 30px) / 2);
+}
+
+td.fourth {
+    width: calc((100% - 60px) / 3);
+}
+
+
+/*
+15px * 4 availabel 60px
+100% - 60px avilable space
+3 elements the width is: (100% - 60px) / 3
+*/
+
+.container {
+    width: 1000px;
+    height: 140px;
+    margin: 10px;
+    background-color: rgb(159, 143, 143);
+}
+
+.head {
+    width: inherit;
+    background-color: #eee;
+    text-align: center;
+}
+
+.body {
+    width: inherit;
+}
+
+.row1,
+.row2,
+.row3 {
+    background-color: rgb(159, 143, 143);
+    width: inherit;
+}
+
+.third {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: calc((100% - 60px)/3);
+    background-color: #eee;
+    float: left;
+}
+
+.half {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: calc((100% - 45px)/2);
+    background-color: #eee;
+    float: left;
+}
+
+.fourth {
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: calc((100% - 75px)/4);
+    background-color: #eee;
+    float: left;
+}
+
+clear {
+    clear: both;
+}
