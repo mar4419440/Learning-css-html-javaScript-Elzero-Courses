@@ -1,0 +1,19 @@
+html {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.one {
+    font-size: 50px;
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 40px;
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 30px;
+    font-size: 1.5rem;
+}
