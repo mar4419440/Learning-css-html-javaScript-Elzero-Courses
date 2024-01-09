@@ -1,0 +1,15 @@
+div {
+    background-color: #a52a2a;
+    max-width: 400px;
+    display: block;
+    margin: 10px;
+    max-height: 50px;
+    padding: 20px;
+    color: white;
+    text-align: bottom left;
+}
+
+div.four {
+    height: 20px;
+    overflow: hidden;
+}
