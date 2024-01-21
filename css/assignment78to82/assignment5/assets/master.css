@@ -1,7 +1,0 @@
-div:nth-child(2)>div[title="Elzero"] {
-    color: red;
-}
-
-div:not(.no-need)>p+div[title="Elzero"]:not(.no-need):last-child {
-    color: red;
-}
