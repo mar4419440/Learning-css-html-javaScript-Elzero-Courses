@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black black transparent black;
+    background-color: #eee;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    animation: spin 1s linear infinite;
+}
+
+span,
+span::after,
+span::before {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
