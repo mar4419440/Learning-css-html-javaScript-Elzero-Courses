@@ -1,0 +1,23 @@
+div {
+    width: 400px;
+    font-size: 20px !important;
+    background-color: #eee !important;
+    border: none !important;
+    color: black !important;
+    text-align: center;
+    visibility: hidden;
+    position: relative;
+}
+
+div::after {
+    position: absolute;
+    width: 400px !important;
+    font-size: 20px !important;
+    background-color: #eee !important;
+    border: none !important;
+    color: black !important;
+    text-align: center;
+    left: 100px;
+    content: "Elzero";
+    visibility: visible;
+}
