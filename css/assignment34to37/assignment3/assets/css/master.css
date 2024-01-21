@@ -1,0 +1,42 @@
+p::after {
+    border-right: 10px solid red;
+    content: '';
+    display: block;
+    height: 8px;
+    margin-top: -6px;
+    position: absolute;
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    left: -11px;
+    top: 50%;
+    width: 0;
+    z-index: 0;
+}
+
+p {
+    display: flex;
+    margin-left: 100px;
+    padding-left: 10px;
+    position: relative;
+    background-color: #eee;
+    width: 380px;
+    height: 50px;
+    border-left: 7px solid red;
+    align-items: center;
+    z-index: 3;
+}
+
+p::before {
+    content: attr(data-person);
+    display: grid;
+    background-color: #eee;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 79px;
+    top: 5px;
+    left: -100px;
+    height: 40px;
+}
