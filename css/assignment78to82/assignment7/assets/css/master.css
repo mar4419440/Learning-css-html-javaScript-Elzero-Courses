@@ -1,0 +1,4 @@
+div:first-of-type>div:nth-last-of-type(2) {
+    color: red;
+    font-size: 100px;
+}
